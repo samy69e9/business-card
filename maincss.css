@@ -1,0 +1,47 @@
+.image{
+    width:150px
+}
+
+body{
+    margin:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text{
+    display: inline;
+    text-align: center;
+}
+.card{
+    
+    
+    padding: 20px;
+    display: flex;
+    justify-content:space-around;
+    width: 400px;
+    margin: 0px auto;
+    background: #e7c6ff;
+    color:#2b2839 ;
+    border-bottom: 10px solid #ffd6ff;
+    text-shadow: red;
+    /* box-shadow: 10px 10px 5px lightblue; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation-name: example;
+    animation-duration: 4s;
+    
+}
+.italic{
+    font-style: italic;
+}
+
+.border{
+    border: 1px dotted blue ;
+    
+}
+
+.text:hover{
+    color: aquamarine;
+}
+
+@keyframes example {
+    from {background-color:#e7c6ff;}
+    to {background-color: #b392ac;}
+  }
